@@ -1,0 +1,46 @@
+<div>
+    <h3 class="text-3xl text-center pt-6 mb-3">
+        Filters
+    </h3>
+
+    <mat-divider />
+    
+    <div class="flex p-4 gap-4">
+        <div class="w-1/2">
+            <h4 class="font-semibold text-xl text-primary">
+                Brands
+            </h4>
+            <div class="overflow-y-auto max-h-64 border border-gray-300 rounded">
+                <mat-selection-list [(ngModel)]="selectedBrands" [multiple]="true">
+                    @for (brand of brands; track brand.name) {
+                        <mat-list-option [value]="brand.name">
+                            {{brand.name}}
+                        </mat-list-option>
+                    }
+                </mat-selection-list>
+            </div>
+        </div>
+
+        <div class="w-1/2">
+            <h4 class="font-semibold text-xl text-primary">
+                Categories
+            </h4>
+            <div class="overflow-y-auto max-h-64 border border-gray-300 rounded">
+                <mat-selection-list [(ngModel)]="selectedCategories" [multiple]="true">
+                    @for (category of categories; track category.name) {
+                        <mat-list-option [value]="category.name">
+                            {{category.name}}
+                        </mat-list-option>
+                    }
+                </mat-selection-list>
+            </div>
+        </div>
+    </div>
+    
+    <div class="flex justify-end p-4">
+        <button mat-flat-button
+            (click)="applyFilters()">
+            Apply Filters
+        </button>
+    </div>
+</div>

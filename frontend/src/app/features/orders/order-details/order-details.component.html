@@ -1,0 +1,87 @@
+<mat-card class="bg-white py-8 shadow-md max-w-screen-lg mx-auto">
+    <div class="px-4 w-full">
+        <div class="flex justify-between items-center align-middle">
+            <h2 class="text-2xl font-semibold">Order Summary for Order #{{ order?.orderId }}</h2>
+            <button (click)="onReturnClick()" mat-stroked-button>{{ buttonText }}</button>
+        </div>
+
+        <div class="mt-8 py-3 border-t border-gray-200 flex flex-wrap gap-16">
+            <div class="space-y-4">
+                <h4 class="text-lg font-semibold">Billing and Delivery Information</h4>
+                <dl>
+                    <dt class="font-medium">Customer</dt>
+                    <dd class="mt-1 font-light">{{ order?.customer?.email }}</dd>
+                </dl>
+                <dl>
+                    <dt class="font-medium">Employee</dt>
+                    <dd class="mt-1 font-light">{{ order?.employee?.email }}</dd>
+                </dl>
+                <dl>
+                    <dt class="font-medium">Shipping Address</dt>
+                    <dd class="mt-1 font-light">{{ getAddressInfo(order) }}</dd>
+                </dl>
+                <dl>
+                    <dt class="font-medium">Delivery Method</dt>
+                    <dd class="mt-1 font-light">{{ order?.deliveryMethod?.name }}</dd>
+                </dl>
+            </div>
+
+            <div class="space-y-4">
+                <h4 class="text-lg font-semibold">Order Details</h4>
+                <dl>
+                    <dt class="font-medium">Order Status</dt>
+                    <dd class="mt-1 font-light">{{ order?.status }}</dd>
+                </dl>
+                <dl>
+                    <dt class="font-medium">Order Date</dt>
+                    <dd class="mt-1 font-light">{{ order?.createdAt | date: 'medium' }}</dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <h4 class="text-lg font-semibold mb-4">Order Items</h4>
+            <div class="border-y border-gray-200">
+                <table class="w-full text-center">
+                    <thead class="bg-gray-100 text-sm font-semibold text-gray-700">
+                        <tr>
+                            <th class="py-2">Product</th>
+                            <th class="py-2">Quantity</th>
+                            <th class="py-2">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr *ngFor="let item of order?.orderItems" class="hover:bg-gray-50">
+                            <td class="py-4 flex items-center justify-left gap-4">
+                                <div class="flex items-center gap-4">
+                                    <img [src]="item.shoe.images[0].url" alt="Product Image" class="w-10 h-10">
+                                    <span>{{ item.shoe.name }}</span>
+                                </div>
+                            </td>
+                            <td class="py-4">x{{ item.quantity }}</td>
+                            <td class="py-4">{{ item.price | currency: 'USD' }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="mt-8 space-y-4 rounded-lg border-y border-gray-200 p-4 bg-white">
+            <h4 class="text-xl font-semibold">Order Summary</h4>
+            <div class="space-y-2">
+                <dl class="flex items-center justify-between gap-4">
+                    <dt class="font-medium text-gray-500">Subtotal</dt>
+                    <dd class="font-medium text-gray-900">{{ order?.subtotal | currency: 'USD' }}</dd>
+                </dl>
+                <dl class="flex items-center justify-between gap-4">
+                    <dt class="font-medium text-gray-500">Shipping</dt>
+                    <dd class="font-medium text-gray-900">{{ order?.shipping | currency: 'USD' }}</dd>
+                </dl>
+            </div>
+            <dl class="flex items-center justify-between gap-4 border-t border-gray-200 pt-2">
+                <dt class="font-medium text-gray-500">Total</dt>
+                <dd class="font-medium text-gray-900">{{ totalPrice | currency: 'USD' }}</dd>
+            </dl>
+        </div>
+    </div>
+</mat-card>

@@ -1,0 +1,23 @@
+<mat-card appearance="raised"
+    [routerLink]="['/shop', product().shoeId]"
+    class="product-card">
+    <img mat-card-image [src]="mainImage" alt="Product image">
+
+    <mat-card-content class="mt-2">
+        <h2 class="text-sm font-semibold uppercase truncate-text">
+            {{ product().name }}
+        </h2>
+        <p class="font-light">
+            {{ product().price | currency : 'USD' }}
+        </p>
+    </mat-card-content>
+
+    <mat-card-actions>
+        <button mat-stroked-button
+            (click)="addToCart($event)"
+            class="w-full">
+            <mat-icon>add_shopping_cart</mat-icon>
+            Add to cart
+        </button>
+    </mat-card-actions>
+</mat-card>

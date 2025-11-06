@@ -1,0 +1,162 @@
+[
+  {
+    "CategoryId": "b1a1c1d1-e1f1-41a1-b1c1-d1e1f1a1b1c1",
+    "Name": "Sneakers"
+  },
+  {
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "Name": "Running Shoes"
+  },
+  {
+    "CategoryId": "b3a3c3d3-e3f3-43a3-b3c3-d3e3f3a3b3c3",
+    "Name": "Hiking Boots"
+  },
+  {
+    "CategoryId": "b4a4c4d4-e4f4-44a4-b4c4-d4e4f4a4b4c4",
+    "Name": "Sandals"
+  },
+  {
+    "CategoryId": "b5a5c5d5-e5f5-45a5-b5c5-d5e5f5a5b5c5",
+    "Name": "Formal Shoes"
+  },
+  {
+    "CategoryId": "b6a6c6d6-e6f6-46a6-b6c6-d6e6f6a6b6c6",
+    "Name": "Loafers"
+  },
+  {
+    "CategoryId": "b7a7c7d7-e7f7-47a7-b7c7-d7e7f7a7b7c7",
+    "Name": "Slippers"
+  },
+  {
+    "CategoryId": "b8a8c8d8-e8f8-48a8-b8c8-d8e8f8a8b8c8",
+    "Name": "Flip Flops"
+  },
+  {
+    "CategoryId": "b9a9c9d9-e9f9-49a9-b9c9-d9e9f9a9b9c9",
+    "Name": "High Heels"
+  },
+  {
+    "CategoryId": "3fd74c32-7b51-4c4a-b5d0-30e8916edb67",
+    "Name": "Ankle Boots"
+  },
+  {
+    "CategoryId": "ff635ad9-36b1-4af3-8f83-098cb4f91828",
+    "Name": "Combat Boots"
+  },
+  {
+    "CategoryId": "7b6c58a5-8b0e-4b6a-88b3-b98627e645e7",
+    "Name": "Chelsea Boots"
+  },
+  {
+    "CategoryId": "af6dfb49-d001-4b3a-918c-712a735e1c87",
+    "Name": "Clogs"
+  },
+  {
+    "CategoryId": "d5d2c1ea-3058-47bc-b739-c1162f546cc1",
+    "Name": "Espadrilles"
+  },
+  {
+    "CategoryId": "5a972b18-7811-40f0-b7cc-2cde9d4e4fd9",
+    "Name": "Oxfords"
+  },
+  {
+    "CategoryId": "f2334139-57ce-4bc3-9e3d-f3f4a82a4d10",
+    "Name": "Moccasins"
+  },
+  {
+    "CategoryId": "ea1e7d2a-72d3-4436-9cde-3b13c13b2f53",
+    "Name": "Wedges"
+  },
+  {
+    "CategoryId": "68c34b12-1b5b-421f-837e-ccc3c7d4e3c2",
+    "Name": "Ballet Flats"
+  },
+  {
+    "CategoryId": "ae7cc2f9-16d3-4cfc-b51f-b116a26197db",
+    "Name": "Derby Shoes"
+  },
+  {
+    "CategoryId": "287f39c2-b314-4435-bbd1-929f2a548c23",
+    "Name": "Trail Running Shoes"
+  },
+  {
+    "CategoryId": "30e650ab-6ed5-42cf-bc0e-5426c8587f0e",
+    "Name": "Work Boots"
+  },
+  {
+    "CategoryId": "1f6a2d21-d99f-4b6a-8e02-1f5dbf537469",
+    "Name": "Cycling Shoes"
+  },
+  {
+    "CategoryId": "63de5c7b-71b4-4143-b3cc-58899c31fd83",
+    "Name": "Golf Shoes"
+  },
+  {
+    "CategoryId": "08d2a1cb-ec71-42f1-a2d7-f44c38f7991d",
+    "Name": "Soccer Cleats"
+  },
+  {
+    "CategoryId": "28d62b87-fd9c-4ea6-b3e5-25f2fdf67df5",
+    "Name": "Basketball Shoes"
+  },
+  {
+    "CategoryId": "ccfd0221-0ff2-486a-8982-3568fc9eab2a",
+    "Name": "Tennis Shoes"
+  },
+  {
+    "CategoryId": "7f48a3f1-86b4-41b2-9fc3-01309ac5075f",
+    "Name": "Skateboarding Shoes"
+  },
+  {
+    "CategoryId": "c9ae0545-6c93-4c65-975f-cb1aa83d9c31",
+    "Name": "Mountaineering Boots"
+  },
+  {
+    "CategoryId": "2d52988f-2490-4b10-9b58-4417755c089f",
+    "Name": "Water Shoes"
+  },
+  {
+    "CategoryId": "cc0cb6f4-39f5-4d71-9b1f-d10565b3b94e",
+    "Name": "Winter Boots"
+  },
+  {
+    "CategoryId": "73ebf594-53b2-44cf-9db7-78b350b4466b",
+    "Name": "Driving Shoes"
+  },
+  {
+    "CategoryId": "364a91b4-397e-4ce2-9c6a-bd6efb9431cb",
+    "Name": "Dress Boots"
+  },
+  {
+    "CategoryId": "be6e0507-7e82-44df-9012-23cf49c9b3dc",
+    "Name": "Pumps"
+  },
+  {
+    "CategoryId": "3002eae9-bf33-4d15-b74c-7e90ed4fa2b2",
+    "Name": "Slip-On Sneakers"
+  },
+  {
+    "CategoryId": "d3fa0070-4696-4a4e-9cf1-dfb152b8f203",
+    "Name": "Chukka Boots"
+  },
+  {
+    "CategoryId": "b684dcf5-2737-4f8d-9932-cc3067b3272e",
+    "Name": "Riding Boots"
+  },
+  {
+    "CategoryId": "22c820d6-7f63-4a60-8408-284c38255e79",
+    "Name": "Boat Shoes"
+  },
+  {
+    "CategoryId": "ab8b07f0-b372-42de-988f-bbc1f6d26f25",
+    "Name": "Cross-Training Shoes"
+  },
+  {
+    "CategoryId": "0df77583-e32a-441d-b82a-54b3b31cfc9e",
+    "Name": "Mary Janes"
+  },
+  {
+    "CategoryId": "29b3ed38-9ac2-4f7c-b60f-810f9a59cb2d",
+    "Name": "Track Spikes"
+  }
+]

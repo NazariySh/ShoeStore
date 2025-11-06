@@ -1,0 +1,76 @@
+<section class="py-8">
+    <div class="max-w-screen-2xl px-4 mx-auto">
+        <div class="grid grid-cols-2 gap-8">
+            <div class="max-w-xl mx-auto">
+                <div class="relative">
+                  <div #carousel class="flex overflow-hidden gap-4 scroll-snap-x scroll-snap-mandatory">
+                    <div *ngFor="let image of product?.images" class="flex-shrink-0 w-full scroll-snap-center">
+                      <img
+                        [src]="image.url"
+                        alt="Product Image"
+                        class="w-full h-auto object-cover rounded-lg shadow"
+                      />
+                    </div>
+                  </div>
+              
+                  <button
+                    class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow hover:bg-gray-700"
+                    (click)="scrollCarousel(-1)">
+                    <mat-icon>chevron_left</mat-icon>
+                  </button>
+                  <button
+                    class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow hover:bg-gray-700"
+                    (click)="scrollCarousel(1)">
+                    <mat-icon>chevron_right</mat-icon>
+                  </button>
+                </div>
+              </div>
+
+            <div>
+                <h1 class="text-2xl font-semibold text-gray-900">
+                    {{product?.name}}
+                </h1>
+
+                <div class="mt-2 text-sm text-gray-600">
+                  <p>Category: {{ product?.category?.name }}</p>
+                  <p>Brand: {{ product?.brand?.name }}</p>
+                </div>
+                
+                <p>You have {{quantityInCart}} of this item in your cart</p>
+                
+                <div class="mt-4 items-center gap-4 flex">
+                    <p class="text-3xl font-extrabold text-gray-900">
+                        {{product?.price | currency : 'USD'}}
+                    </p>
+                </div>
+
+                <div class="flex gap-4 my-6">
+                    <button mat-flat-button
+                        [disabled]="quantity === quantityInCart || quantity <= 0" 
+                        (click)="updateCart()"
+                        class="match-input-height">
+                        <mat-icon>shopping_cart</mat-icon>
+                        {{ buttonText }}
+                    </button>
+
+                    <mat-form-field appearance="outline" class="flex">
+                        <mat-label>Quantity</mat-label>
+                        <input matInput
+                            type="number"
+                            [(ngModel)]="quantity"
+                            [min]="0"
+                            [max]="product?.stock ?? 0"
+                            #inputQuantity>
+                    </mat-form-field>
+                </div>
+
+                <mat-divider />
+
+                <p class="mt-6 text-gray-500">
+                    {{product?.description}}
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>

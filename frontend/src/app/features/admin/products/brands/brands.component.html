@@ -1,0 +1,70 @@
+<h2 class="text-2xl font-semibold mb-6 text-gray-800">
+  Shoe Brand List
+</h2>
+
+<div class="flex justify-between items-center mb-4">
+  <p class="text-gray-600 text-sm">
+    Total Brands: {{ brands.totalCount }}
+  </p>
+
+  <button mat-raised-button
+    color="primary"
+    routerLink="/admin/products/brands/new"
+    class="px-4 py-2 text-white bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2">
+    New Brand
+  </button>
+</div>
+
+<div class="overflow-x-auto bg-white rounded-lg shadow-md">
+  <table class="min-w-full table-auto border-collapse border border-gray-200 mb-6">
+    <thead class="bg-gray-100">
+      <tr>
+        <th scope="col" class="px-4 py-2 text-center font-medium text-gray-700">#</th>
+        <th scope="col" class="px-4 py-2 text-left font-medium text-gray-700">Name</th>
+        <th scope="col" class="px-4 py-2 text-left font-medium text-gray-700">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(brand of brands.items; track brand.name) {
+        <tr class="border-t">
+          <th scope="row" class="px-4 py-2 text-gray-700 font-medium">{{ brand.brandId }}</th>
+          <td class="px-4 py-2 text-gray-600">{{ brand.name }}</td>
+          <td class="px-4 py-2">
+            <button mat-icon-button
+                [matMenuTriggerFor]="menu"
+                class="text-gray-600 hover:text-gray-800">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item
+                [routerLink]="['/admin/products/brands/edit', brand.brandId]">
+                <mat-icon>edit</mat-icon>
+                <span>Update</span>
+              </button>
+              <button mat-menu-item (click)="deleteBrand(brand.brandId)">
+                <mat-icon>delete</mat-icon>
+                <span>Delete</span>
+              </button>
+            </mat-menu>
+          </td>
+        </tr>
+      }
+      @empty {
+        <tr>
+          <td colspan="3" class="text-center px-4 py-2 text-gray-500">
+            No matching results found
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+
+  <mat-paginator
+    (page)="handlePageEvent($event)"
+    [length]="brands.totalCount"
+    [pageSize]="brands.pageSize"
+    [showFirstLastButtons]="true"
+    [pageIndex]="brands.pageNumber - 1"
+    aria-label="Select page">
+  </mat-paginator>
+</div>

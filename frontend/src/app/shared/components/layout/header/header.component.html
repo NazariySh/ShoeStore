@@ -1,0 +1,115 @@
+<header class="border-b shadow-md p-3 w-full max-h-20 fixed top-0 z-50 bg-white">
+    <div class="flex items-center justify-between max-w-screen-2xl mx-auto">
+        <img routerLink="/" src="/images/logo.png" alt="App logo" class="max-h-16 cursor-pointer">
+
+        <form
+            #searchForm="ngForm" 
+            (ngSubmit)="onSearchChange()"
+            class="relative flex items-center w-full max-w-md mx-4">
+            <input
+                type="search"
+                name="search"
+                [(ngModel)]="searchTerm"
+                placeholder="Search..."
+                class="block w-full p-4 text-sm text-gray-900 border border-gray-300 rounded-lg" />
+            <button mat-icon-button
+                type="submit"
+                class="absolute inset-y-0 right-8 top-1 flex items-center pl-3">
+                <mat-icon>search</mat-icon>
+            </button>
+        </form>
+
+        <div class="flex items-center space-x-4">
+            <button *appIsAdmin mat-button [matMenuTriggerFor]="menu" class="hover:text-blue-500">
+                Admin Panel
+                <mat-icon>arrow_drop_down</mat-icon>
+            </button>
+
+            <mat-menu #menu="matMenu" class="px-4">
+                <button mat-menu-item routerLink="/admin/products" class="px-4">
+                    <mat-icon>store</mat-icon>
+                    Products
+                </button>
+                <button mat-menu-item routerLink="/admin/products/brands" class="px-4">
+                    <mat-icon>category</mat-icon>
+                    Brands
+                </button>
+                <button mat-menu-item routerLink="/admin/products/categories" class="px-4">
+                    <mat-icon>category</mat-icon>
+                    Categories
+                </button>
+                <button mat-menu-item routerLink="/admin/orders" class="px-4">
+                    <mat-icon>history</mat-icon>
+                    Orders
+                </button>
+            </mat-menu>
+
+            <a routerLink="/shopping-cart"
+                routerLinkActive="active" 
+                [matBadge]="cartItems()"
+                matBadgeSize="large"
+                class="custom-badge mt-2 mr-2">
+                <mat-icon>shopping_cart</mat-icon>
+            </a>
+
+            @if (isLoggedIn()) {
+                <button mat-button
+                    [matMenuTriggerFor]="userMenu"
+                    class="flex items-center space-x-2 text-xl">
+                  <mat-icon>arrow_drop_down</mat-icon>
+                  <span>{{ currentUser()?.email }}</span>
+                </button>
+
+                <mat-menu #userMenu="matMenu" class="px-4">
+                    <button mat-menu-item
+                      routerLink="/account/profile"
+                      class="px-4">
+                      <mat-icon>account_circle</mat-icon>
+                      My Profile
+                    </button>
+                
+                    <button mat-menu-item
+                        routerLink="/shopping-cart"
+                        class="px-4" >
+                        <mat-icon>shopping_cart</mat-icon>
+                        My cart
+                    </button>
+                    
+                    <button mat-menu-item
+                        routerLink="/orders"
+                        class="px-4">
+                        <mat-icon>history</mat-icon>
+                        My orders
+                    </button>
+                
+                    <mat-divider />
+                
+                    <button mat-menu-item
+                      (click)="logout()"
+                      class="px-4">
+                      <mat-icon>logout</mat-icon>
+                      Logout
+                    </button>
+                </mat-menu>
+            }
+            @else {
+                <div class="flex space-x-4">
+                    <button mat-stroked-button
+                        routerLink="/auth/login"
+                        class="text-lg">
+                        Login
+                    </button>
+                    <button mat-stroked-button
+                        routerLink="/auth/register"
+                        class="text-lg">
+                        Register
+                    </button>
+                </div>
+            }
+        </div>
+    </div>
+</header>
+
+@if (isLoading) {
+    <mat-progress-bar mode="indeterminate" class="fixed top-20 z-50" />
+}

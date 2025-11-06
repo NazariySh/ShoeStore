@@ -1,0 +1,54 @@
+<div class="max-w-lg mx-auto mt-32 p-8 bg-white shadow-lg rounded-lg">
+  <h2 class="text-2xl font-semibold mb-6 text-gray-800 text-center">
+    User Profile
+  </h2>
+
+  <div *ngIf="user" class="space-y-6">
+    <div class="space-y-2">
+      <p class="flex items-center gap-2">
+        <span class="font-bold text-gray-700">Name:</span>
+        <span class="text-gray-600">{{ user.firstName }} {{ user.lastName }}</span>
+      </p>
+      <p class="flex items-center gap-2">
+        <span class="font-bold text-gray-700">Email:</span>
+        <span class="text-gray-600">{{ user.email }}</span>
+      </p>
+      <p class="flex items-center gap-2">
+        <span class="font-bold text-gray-700">Phone:</span>
+        <span class="text-gray-600">{{ user.phoneNumber }}</span>
+      </p>
+      <p *ngIf="user.birthDate" class="flex items-center gap-2">
+        <span class="font-bold text-gray-700">Birth Date:</span>
+        <span class="text-gray-600">{{ user.birthDate | dateFormat }}</span>
+      </p>
+    </div>
+
+    <div *ngIf="user.address" class="space-y-2">
+      <p class="font-bold text-gray-700">Address:</p>
+      <p class="text-gray-600">
+        {{ user.address.street }}, {{ user.address.city }}, {{ user.address.postalCode }}
+      </p>
+      <p class="text-gray-600">
+        {{ user.address.state }}, {{ user.address.country }}
+      </p>
+    </div>
+  </div>
+
+  <div class="mt-6 flex justify-center gap-4">
+    <button
+      routerLink="/account/profile/address"
+      class="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-lg shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
+    >
+      <mat-icon>edit</mat-icon>
+      <span>Update Address</span>
+    </button>
+
+    <button
+      (click)="deleteProfile()"
+      class="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-red-500 rounded-lg shadow hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2"
+    >
+      <mat-icon>delete</mat-icon>
+      <span>Delete</span>
+    </button>
+  </div>
+</div>

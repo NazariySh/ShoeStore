@@ -1,0 +1,234 @@
+[  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440000",  
+       "Name": "Nike"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440001",  
+       "Name": "Adidas"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440002",  
+       "Name": "Puma"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440003",  
+       "Name": "Reebok"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440004",  
+       "Name": "New Balance"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440005",  
+       "Name": "ASICS"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440006",  
+       "Name": "Under Armour"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440007",  
+       "Name": "Vans"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440008",  
+       "Name": "Converse"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440009",  
+       "Name": "Timberland"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544000a",  
+       "Name": "Dr. Martens"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544000b",  
+       "Name": "Skechers"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544000c",  
+       "Name": "Salomon"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544000d",  
+       "Name": "Merrell"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544000e",  
+       "Name": "Columbia"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544000f",  
+       "Name": "The North Face"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440010",  
+       "Name": "Brooks"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440011",  
+       "Name": "Mizuno"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440012",  
+       "Name": "Hoka One One"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440013",  
+       "Name": "Saucony"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440014",  
+       "Name": "Fila"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440015",  
+       "Name": "ECCO"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440016",  
+       "Name": "Clarks"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440017",  
+       "Name": "Birkenstock"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440018",  
+       "Name": "UGG"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440019",  
+       "Name": "Steve Madden"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544001a",  
+       "Name": "Aldo"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544001b",  
+       "Name": "Guess"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544001c",  
+       "Name": "Tommy Hilfiger"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544001d",  
+       "Name": "Calvin Klein"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544001e",  
+       "Name": "Prada"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544001f",  
+       "Name": "Gucci"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440020",  
+       "Name": "Louis Vuitton"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440021",  
+       "Name": "Balenciaga"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440022",  
+       "Name": "Versace"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440023",  
+       "Name": "Chanel"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440024",  
+       "Name": "Dolce & Gabbana"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440025",  
+       "Name": "Valentino"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440026",  
+       "Name": "Berluti"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440027",  
+       "Name": "Ferragamo"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440028",  
+       "Name": "Bottega Veneta"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440029",  
+       "Name": "Lacoste"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544002a",  
+       "Name": "Yeezy"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544002b",  
+       "Name": "Off-White"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544002c",  
+       "Name": "Ralph Lauren"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544002d",  
+       "Name": "Johnston & Murphy"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544002e",  
+       "Name": "Allen Edmonds"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-44665544002f",  
+       "Name": "Cole Haan"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440030",  
+       "Name": "Keen"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440031",  
+       "Name": "Teva"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440032",  
+       "Name": "Chaco"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440033",  
+       "Name": "Arc'teryx"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440034",  
+       "Name": "Vibram"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440035",  
+       "Name": "Red Wing Shoes"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440036",  
+       "Name": "Rockport"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440037",  
+       "Name": "Hush Puppies"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440038",  
+       "Name": "Mephisto"  
+   },  
+   {  
+       "BrandId": "550e8400-e29b-41d4-a716-446655440039",  
+       "Name": "Geox"  
+   }  
+]

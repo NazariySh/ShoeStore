@@ -1,0 +1,1010 @@
+[
+  {
+    "ShoeId": "517a889a-1ab0-458b-b6a5-a0e24ac2684b",
+    "Name": "Ferragamo Winter Boots",
+    "Description": "Relationship early professional Democrat shoulder north authority data wall.",
+    "Price": 269.87,
+    "CategoryId": "3fd74c32-7b51-4c4a-b5d0-30e8916edb67",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440027",
+    "Sku": "SKU-001",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\ferragamo_winter_boots.jpg",
+        "PublicId": "ferragamo_winter_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "b53075ea-d3cc-480a-9acb-ad352a11740e",
+    "Name": "Lacoste Moccasins",
+    "Description": "Wonder up mention save case usually third would two opportunity.",
+    "Price": 219.42,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440001",
+    "Sku": "SKU-002",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\lacoste_moccasins.jpg",
+        "PublicId": "lacoste_moccasins",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "6899d44a-4aae-4872-a74f-4dea38f32488",
+    "Name": "Guess Tennis Shoes",
+    "Description": "Him organization miss event nearly possible quite get good own through.",
+    "Price": 261.66,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440001",
+    "Sku": "SKU-003",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\guess_tennis_shoes.jpg",
+        "PublicId": "guess_tennis_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "47090273-e5f8-4b90-bff9-93fc880c5c31",
+    "Name": "Columbia Mary Janes",
+    "Description": "Unit season improve gas reach tell above stop purpose at party beyond financial.",
+    "Price": 246.55,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440001",
+    "Sku": "SKU-004",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\columbia_mary_janes.jpg",
+        "PublicId": "columbia_mary_janes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "75578ff5-3ef7-4d30-ba1a-176978553558",
+    "Name": "Allen Edmonds Mary Janes",
+    "Description": "Visit attack allow air identify so one difference get summer bill your quite including.",
+    "Price": 332.18,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440001",
+    "Sku": "SKU-005",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\allen_edmonds_mary_janes.jpg",
+        "PublicId": "allen_edmonds_mary_janes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "b9ae9b80-7335-4fe4-8059-699379d2a5b5",
+    "Name": "Reebok Ankle Boots",
+    "Description": "However opportunity day must kid fund arm bad hundred research treatment matter.",
+    "Price": 268.89,
+    "CategoryId": "3fd74c32-7b51-4c4a-b5d0-30e8916edb67",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440001",
+    "Sku": "SKU-006",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\reebok_ankle_boots.jpg",
+        "PublicId": "reebok_ankle_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "f7400358-0217-4e8c-9d2f-f03878587b76",
+    "Name": "Hush Puppies Derby Shoes",
+    "Description": "Personal nice plan forget phone type involve watch financial easy easy.",
+    "Price": 214.99,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440001",
+    "Sku": "SKU-007",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\hush_puppies_derby_shoes.jpg",
+        "PublicId": "hush_puppies_derby_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "bce689d7-f466-4760-96f9-ad1ea6ccffd4",
+    "Name": "Aldo Chelsea Boots",
+    "Description": "Central place economy meet down change remember station impact dog able pay trouble.",
+    "Price": 368.8,
+    "CategoryId": "3fd74c32-7b51-4c4a-b5d0-30e8916edb67",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440001",
+    "Sku": "SKU-008",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\aldo_chelsea_boots.jpg",
+        "PublicId": "aldo_chelsea_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "dce7b816-a24e-4016-b8a0-f7adccc28672",
+    "Name": "Lacoste Soccer Cleats",
+    "Description": "Speech however against situation him I son land against opportunity.",
+    "Price": 251.1,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-009",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\lacoste_soccer_cleats.jpg",
+        "PublicId": "lacoste_soccer_cleats",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "50ccc6b7-8b70-4ddb-9c75-88061c1db1f9",
+    "Name": "Nike Boat Shoes",
+    "Description": "Control happen nearly station benefit term policy my eight learn break peace.",
+    "Price": 213.51,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-010",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\nike_boat_shoes.jpg",
+        "PublicId": "nike_boat_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "34d465d3-788c-4734-8cc2-2b11dc5d4e68",
+    "Name": "Under Armour Skateboarding Shoes",
+    "Description": "Control floor above necessary process fast put nor.",
+    "Price": 120.9,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-011",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\under_armour_skateboarding_shoes.jpg",
+        "PublicId": "under_armour_skateboarding_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "90644247-0143-4b70-9611-53832bab9135",
+    "Name": "Puma Chelsea Boots",
+    "Description": "Walk usually degree explain big sure level church rock question but agree.",
+    "Price": 376.23,
+    "CategoryId": "3fd74c32-7b51-4c4a-b5d0-30e8916edb67",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-012",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\puma_chelsea_boots.jpg",
+        "PublicId": "puma_chelsea_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "f2786385-07cb-41af-afef-21a75d60196b",
+    "Name": "Birkenstock Espadrilles",
+    "Description": "Marriage late protect record job main professor dinner often up.",
+    "Price": 144.36,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-013",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\birkenstock_espadrilles.jpg",
+        "PublicId": "birkenstock_espadrilles",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "22103ac5-9957-4a7d-9b74-aa396423fa20",
+    "Name": "Aldo Mary Janes",
+    "Description": "Despite back piece recent candidate success it a.",
+    "Price": 222.78,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-014",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\aldo_mary_janes.jpg",
+        "PublicId": "aldo_mary_janes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "30593783-5edd-469f-91e0-109dee096eab",
+    "Name": "Reebok Basketball Shoes",
+    "Description": "Building door hundred radio through pretty turn measure analysis relationship where inside.",
+    "Price": 212.98,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-015",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\reebok_basketball_shoes.jpg",
+        "PublicId": "reebok_basketball_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "ef6b695b-fdab-4f64-a509-ae40b466f785",
+    "Name": "Dolce & Gabbana Sneakers",
+    "Description": "Their industry large budget sell sense human certainly site crime direction condition fund size.",
+    "Price": 178.28,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440009",
+    "Sku": "SKU-016",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\dolce_gabbana_sneakers.jpg",
+        "PublicId": "dolce_gabbana_sneakers",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "d653c2cc-4988-4373-9a4a-661449ffae9b",
+    "Name": "Clarks Moccasins",
+    "Description": "Plan laugh space run foreign minute throw family scientist lot through present check popular.",
+    "Price": 100.06,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440009",
+    "Sku": "SKU-017",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\clarks_moccasins.jpg",
+        "PublicId": "clarks_moccasins",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "3fbd4bac-84e5-40d0-acc5-362f00f144fe",
+    "Name": "Hoka One One Sandals",
+    "Description": "Term film want art amount fall probably machine know run herself.",
+    "Price": 73.22,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440009",
+    "Sku": "SKU-018",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\hoka_one_one_sandals.jpg",
+        "PublicId": "hoka_one_one_sandals",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "550ceadc-9c82-41e3-afc5-b274e10c4b1d",
+    "Name": "Berluti Flip Flops",
+    "Description": "Above outside relationship simple air take southern material.",
+    "Price": 96.75,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440009",
+    "Sku": "SKU-019",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\berluti_flip_flops.jpg",
+        "PublicId": "berluti_flip_flops",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "ff067c6f-3fd1-434f-a523-7fc92e16d034",
+    "Name": "Louis Vuitton Boat Shoes",
+    "Description": "Best million interest environmental name glass take mention arrive type past.",
+    "Price": 196.72,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440009",
+    "Sku": "SKU-020",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\louis_vuitton_boat_shoes.jpg",
+        "PublicId": "louis_vuitton_boat_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "a779b31a-4786-45dd-bd77-d59e059d4a4c",
+    "Name": "Arc'teryx Oxfords",
+    "Description": "Answer our take quickly affect and however fish us something she always.",
+    "Price": 185.04,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440009",
+    "Sku": "SKU-021",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\arc'teryx_oxfords.jpg",
+        "PublicId": "arc'teryx_oxfords",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "879d81b2-23fe-435f-b699-f7cf878a37de",
+    "Name": "Hoka One One Formal Shoes",
+    "Description": "War ten institution doctor natural beyond over any join senior such.",
+    "Price": 245.84,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440009",
+    "Sku": "SKU-022",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\hoka_one_one_formal_shoes.jpg",
+        "PublicId": "hoka_one_one_formal_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "cf50d7e2-29b9-4c49-b084-56ddc6bfe41c",
+    "Name": "Adidas Slip-On Sneakers",
+    "Description": "Outside room wife a beat increase piece energy analysis bit stand lead pull box.",
+    "Price": 194.46,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440009",
+    "Sku": "SKU-023",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\adidas_slip-on_sneakers.jpg",
+        "PublicId": "adidas_slip-on_sneakers",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "56c928f3-f8e6-4de4-8111-b93917d0aeda",
+    "Name": "Aldo Pumps",
+    "Description": "Month front make free partner start rest care friend and well.",
+    "Price": 178.94,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440009",
+    "Sku": "SKU-024",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\aldo_pumps.jpg",
+        "PublicId": "aldo_pumps",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "be5ef06f-fb36-4368-bbc1-801c6c9f2045",
+    "Name": "UGG Golf Shoes",
+    "Description": "Recently who remain type everything after because occur old sea.",
+    "Price": 298.77,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000b",
+    "Sku": "SKU-025",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\ugg_golf_shoes.jpg",
+        "PublicId": "ugg_golf_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "c0e08480-79c2-4723-9ec6-37c82b9c7daf",
+    "Name": "Clarks Chelsea Boots",
+    "Description": "Situation state experience structure find attention attorney system.",
+    "Price": 328.34,
+    "CategoryId": "3fd74c32-7b51-4c4a-b5d0-30e8916edb67",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000b",
+    "Sku": "SKU-026",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\clarks_chelsea_boots.jpg",
+        "PublicId": "clarks_chelsea_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "fab839ab-f600-4a13-b086-6f966c4fa10c",
+    "Name": "Chaco Boat Shoes",
+    "Description": "Standard far star theory law indeed throughout kitchen compare smile look.",
+    "Price": 115.54,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000b",
+    "Sku": "SKU-027",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\chaco_boat_shoes.jpg",
+        "PublicId": "chaco_boat_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "1a7c6b39-ef9f-4a39-8944-d1f44ae2e557",
+    "Name": "Clarks Formal Shoes",
+    "Description": "Choose father hit evening hear attorney again fast play how through.",
+    "Price": 270.32,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000b",
+    "Sku": "SKU-028",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\clarks_formal_shoes.jpg",
+        "PublicId": "clarks_formal_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "ebaae4b5-d38a-4d08-b79a-f5d5191571ca",
+    "Name": "Yeezy Tennis Shoes",
+    "Description": "Couple rock agreement big value serve speech hope world move build nature.",
+    "Price": 223.63,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000b",
+    "Sku": "SKU-029",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\yeezy_tennis_shoes.jpg",
+        "PublicId": "yeezy_tennis_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "3a745ebc-c705-41ae-a7b9-3fe36ea1bd3d",
+    "Name": "Gucci Formal Shoes",
+    "Description": "Commercial determine important control your total food may.",
+    "Price": 273.59,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000b",
+    "Sku": "SKU-030",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\gucci_formal_shoes.jpg",
+        "PublicId": "gucci_formal_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "197175c6-e5eb-4507-afa9-683bd653b2d7",
+    "Name": "Timberland Track Spikes",
+    "Description": "Because huge everybody present concern stay different where military office act natural wear we.",
+    "Price": 129.4,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000b",
+    "Sku": "SKU-031",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\timberland_track_spikes.jpg",
+        "PublicId": "timberland_track_spikes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "aeb7a2df-3051-4bc1-9270-0a0399e2d8af",
+    "Name": "Steve Madden Track Spikes",
+    "Description": "Wide culture increase trouble nature cultural visit law whose require picture recently student after.",
+    "Price": 93.9,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000b",
+    "Sku": "SKU-032",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\steve_madden_track_spikes.jpg",
+        "PublicId": "steve_madden_track_spikes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "7d60163a-d625-4e58-bd9d-0eb07e4caa41",
+    "Name": "Columbia Slippers",
+    "Description": "Affect issue eat share commercial memory that though road.",
+    "Price": 52.17,
+    "CategoryId": "b7a7c7d7-e7f7-47a7-b7c7-d7e7f7a7b7c7",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000e",
+    "Sku": "SKU-033",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\columbia_slippers.jpg",
+        "PublicId": "columbia_slippers",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "c8076bd9-a407-44f5-938b-31d88833fa99",
+    "Name": "Brooks Wedges",
+    "Description": "Machine represent dark anything control design debate attention memory participant available three.",
+    "Price": 131.26,
+    "CategoryId": "ea1e7d2a-72d3-4436-9cde-3b13c13b2f53",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440010",
+    "Sku": "SKU-034",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\brooks_wedges.jpg",
+        "PublicId": "brooks_wedges",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "f778324e-770b-44d4-becb-3010f5414d40",
+    "Name": "The North Face Mountaineering Boots",
+    "Description": "There real by bit later economic course garden film student policy fear short yard support.",
+    "Price": 237.47,
+    "CategoryId": "c9ae0545-6c93-4c65-975f-cb1aa83d9c31",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000f",
+    "Sku": "SKU-035",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\the_north_face_mountaineering_boots.jpg",
+        "PublicId": "the_north_face_mountaineering_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "c6025ce0-f51f-4672-8d12-2b0343adf13d",
+    "Name": "Yeezy Derby Shoes",
+    "Description": "Me many because create speech reach scene recent Congress.",
+    "Price": 178.82,
+    "CategoryId": "ae7cc2f9-16d3-4cfc-b51f-b116a26197db",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544002a",
+    "Sku": "SKU-036",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\yeezy_derby_shoes.jpg",
+        "PublicId": "yeezy_derby_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "4c94edf6-a744-4a13-bd32-489a4db14236",
+    "Name": "Vans Work Boots",
+    "Description": "Wait market save will sport save current them newspaper.",
+    "Price": 429.49,
+    "CategoryId": "30e650ab-6ed5-42cf-bc0e-5426c8587f0e",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440007",
+    "Sku": "SKU-037",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\vans_work_boots.jpg",
+        "PublicId": "vans_work_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "6770abeb-f395-43aa-adc2-5fc07164f755",
+    "Name": "Calvin Klein Trail Running Shoes",
+    "Description": "True image lawyer human doctor employee ever.",
+    "Price": 178.12,
+    "CategoryId": "287f39c2-b314-4435-bbd1-929f2a548c23",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544001d",
+    "Sku": "SKU-038",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\calvin_klein_trail_running_shoes.jpg",
+        "PublicId": "calvin_klein_trail_running_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "899c0abe-086b-4598-93f4-22904f837984",
+    "Name": "ECCO Combat Boots",
+    "Description": "Music father low public example fly simple brother moment whatever real store although practice.",
+    "Price": 337.33,
+    "CategoryId": "ff635ad9-36b1-4af3-8f83-098cb4f91828",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440015",
+    "Sku": "SKU-039",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\ecco_combat_boots.jpg",
+        "PublicId": "ecco_combat_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "dfe97b45-2fa7-43c8-8db2-e2777710016f",
+    "Name": "Allen Edmonds Trail Running Shoes",
+    "Description": "Effort society up main prevent as people charge season.",
+    "Price": 160.2,
+    "CategoryId": "b2a2c2d2-e2f2-42a2-b2c2-d2e2f2a2b2c2",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544002e",
+    "Sku": "SKU-040",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\allen_edmonds_trail_running_shoes.jpg",
+        "PublicId": "allen_edmonds_trail_running_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "b8281db7-2b2c-4657-b41a-a6551a84994f",
+    "Name": "Mizuno Golf Shoes",
+    "Description": "Pressure training watch shake individual material foreign kitchen next.",
+    "Price": 58.69,
+    "CategoryId": "63de5c7b-71b4-4143-b3cc-58899c31fd83",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440011",
+    "Sku": "SKU-041",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\mizuno_golf_shoes.jpg",
+        "PublicId": "mizuno_golf_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "67ec7ce4-b9c6-4c36-bbcb-ac3db94db300",
+    "Name": "Steve Madden Slip-On Sneakers",
+    "Description": "Enter television successful defense area bag cost wife image age.",
+    "Price": 159.35,
+    "CategoryId": "3002eae9-bf33-4d15-b74c-7e90ed4fa2b2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440019",
+    "Sku": "SKU-042",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\steve_madden_slip-on_sneakers.jpg",
+        "PublicId": "steve_madden_slip-on_sneakers",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "a950e2d3-412c-4d50-b9ce-282bbf3597ac",
+    "Name": "Hoka One One Ankle Boots",
+    "Description": "Weight ever wonder become cold size oil exactly glass set yes environmental writer food.",
+    "Price": 250.98,
+    "CategoryId": "3fd74c32-7b51-4c4a-b5d0-30e8916edb67",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440012",
+    "Sku": "SKU-043",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\hoka_one_one_ankle_boots.jpg",
+        "PublicId": "hoka_one_one_ankle_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "a07ffbba-5d02-4b31-b24f-ca5d56e51372",
+    "Name": "New Balance Golf Shoes",
+    "Description": "Growth along apply public many walk partner consider item.",
+    "Price": 342.08,
+    "CategoryId": "63de5c7b-71b4-4143-b3cc-58899c31fd83",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-044",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\new_balance_golf_shoes.jpg",
+        "PublicId": "new_balance_golf_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "93465267-e19c-4488-b1fd-62fd2ab2e6e3",
+    "Name": "Merrell Formal Shoes",
+    "Description": "Memory when wait everybody ready hold best single debate need seem consumer decade.",
+    "Price": 246.06,
+    "CategoryId": "b5a5c5d5-e5f5-45a5-b5c5-d5e5f5a5b5c5",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544000d",
+    "Sku": "SKU-045",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\merrell_formal_shoes.jpg",
+        "PublicId": "merrell_formal_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "7390ab6d-fd4d-4f88-8d79-f58811fc9291",
+    "Name": "Nike Slip-On Sneakers",
+    "Description": "Bit she the nature company green fall.",
+    "Price": 107.92,
+    "CategoryId": "3002eae9-bf33-4d15-b74c-7e90ed4fa2b2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440000",
+    "Sku": "SKU-046",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\nike_slip-on_sneakers.jpg",
+        "PublicId": "nike_slip-on_sneakers",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "cf0da410-9f98-4675-a062-92c46a2509fd",
+    "Name": "Balenciaga Winter Boots",
+    "Description": "Difference collection save account on town film.",
+    "Price": 255.65,
+    "CategoryId": "cc0cb6f4-39f5-4d71-9b1f-d10565b3b94e",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440021",
+    "Sku": "SKU-047",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\balenciaga_winter_boots.jpg",
+        "PublicId": "balenciaga_winter_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "9f8af079-c498-4c82-9dea-d9eea802a430",
+    "Name": "Chanel Combat Boots",
+    "Description": "Single popular picture weight audience condition line town brother evidence participant thing.",
+    "Price": 203.8,
+    "CategoryId": "ff635ad9-36b1-4af3-8f83-098cb4f91828",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440023",
+    "Sku": "SKU-048",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\chanel_combat_boots.jpg",
+        "PublicId": "chanel_combat_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "26f03c29-d4be-4fbd-8714-a1ad78245a82",
+    "Name": "Red Wing Shoes Loafers",
+    "Description": "Involve somebody election hundred investment return on.",
+    "Price": 138.15,
+    "CategoryId": "b6a6c6d6-e6f6-46a6-b6c6-d6e6f6a6b6c6",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440035",
+    "Sku": "SKU-049",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\red_wing_shoes_loafers.jpg",
+        "PublicId": "red_wing_shoes_loafers",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "36391bc8-0c5a-49ae-9924-677584cfaad9",
+    "Name": "New Balance Espadrilles",
+    "Description": "Finish citizen throughout decision court early law item bit hotel direction party.",
+    "Price": 143.38,
+    "CategoryId": "d5d2c1ea-3058-47bc-b739-c1162f546cc1",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-050",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\new_balance_espadrilles.jpg",
+        "PublicId": "new_balance_espadrilles",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "851272bc-4496-4233-914e-f1f4279afb9c",
+    "Name": "New Balance Sneakers",
+    "Description": "Entire month add travel exist east entire morning suffer seek increase guy some serious.",
+    "Price": 150.82,
+    "CategoryId": "3002eae9-bf33-4d15-b74c-7e90ed4fa2b2",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-051",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\new_balance_sneakers.jpg",
+        "PublicId": "new_balance_sneakers",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "a6495cde-caea-47dd-af01-5ad2f36482e8",
+    "Name": "Calvin Klein Work Boots",
+    "Description": "Stage along later step particularly important support firm late like.",
+    "Price": 232.45,
+    "CategoryId": "30e650ab-6ed5-42cf-bc0e-5426c8587f0e",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544001d",
+    "Sku": "SKU-053",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\calvin_klein_work_boots.jpg",
+        "PublicId": "calvin_klein_work_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "eead4e0e-ec77-4421-ad40-0b745e6586a3",
+    "Name": "Off-White Trail Running Shoes",
+    "Description": "Help article future son lawyer its rest why whose may manage risk by sell.",
+    "Price": 139.19,
+    "CategoryId": "287f39c2-b314-4435-bbd1-929f2a548c23",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544002b",
+    "Sku": "SKU-054",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\off-white_trail_running_shoes.jpg",
+        "PublicId": "off-white_trail_running_shoes",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "ba737c56-0ffd-44f6-9931-02b91430b566",
+    "Name": "Brooks Work Boots",
+    "Description": "Computer bank give any outside television less news open.",
+    "Price": 222.47,
+    "CategoryId": "30e650ab-6ed5-42cf-bc0e-5426c8587f0e",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440010",
+    "Sku": "SKU-055",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\brooks_work_boots.jpg",
+        "PublicId": "brooks_work_boots",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "2ee73a06-bb22-495c-a1b5-f6c2866455ae",
+    "Name": "Guess Flip Flops",
+    "Description": "Not week include as outside treat either former nice management college region guy opportunity seven.",
+    "Price": 62.83,
+    "CategoryId": "b8a8c8d8-e8f8-48a8-b8c8-d8e8f8a8b8c8",
+    "BrandId": "550e8400-e29b-41d4-a716-44665544001b",
+    "Sku": "SKU-056",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\guess_flip_flops.jpg",
+        "PublicId": "guess_flip_flops",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "ShoeId": "6f3395be-4d13-4543-b3e9-6e6369bb5be4",
+    "Name": "Chanel Golf Shoes",
+    "Description": "Same point if for ahead late poor argue speak event tough early analysis.",
+    "Price": 375.14,
+    "CategoryId": "63de5c7b-71b4-4143-b3cc-58899c31fd83",
+    "BrandId": "550e8400-e29b-41d4-a716-446655440004",
+    "Sku": "SKU-057",
+    "Stock": 10,
+    "TotalSold": 0,
+    "ShoeImages": [
+      {
+        "Url": "images\\chanel_golf_shoes.jpg",
+        "PublicId": "chanel_golf_shoes",
+        "IsMain": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+<div class="p-6 bg-gray-50 rounded-lg shadow-md space-y-6">
+  <h2 class="text-2xl font-semibold text-gray-800">
+    My Address
+  </h2>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" class="space-y-6">
+    <app-form-field
+      class="w-full"
+      label="Street"
+      formControlName="street"
+      placeholder="123 Main St">
+    </app-form-field>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <app-form-field
+        class="w-full"
+        label="City"
+        formControlName="city"
+        placeholder="New York">
+      </app-form-field>
+
+      <app-form-field
+        class="w-full"
+        label="Postal Code"
+        formControlName="postalCode"
+        placeholder="10001">
+      </app-form-field>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <app-form-field
+        class="w-full"
+        label="State"
+        formControlName="state"
+        placeholder="NY">
+      </app-form-field>
+
+      <app-form-field
+        class="w-full"
+        label="Country"
+        formControlName="country"
+        placeholder="United States">
+      </app-form-field>
+    </div>
+
+    <div class="flex justify-end gap-4 pt-4">
+      <button
+        mat-stroked-button
+        (click)="onCancel()"
+        class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+      >
+        Cancel
+      </button>
+      <button
+        mat-flat-button
+        type="submit"
+        [disabled]="form.invalid"
+        class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+      >
+        Save Address
+      </button>
+    </div>
+  </form>
+</div>

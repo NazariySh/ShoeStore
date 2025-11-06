@@ -1,0 +1,56 @@
+@if (products && products.items.length > 0) {
+    <div class="flex flex-col gap-3">
+        <div class="flex justify-between items-center">
+            <mat-paginator
+                class="bg-white"
+                (page)="handlePageEvent($event)"
+                [length]="products.totalCount"
+                [pageSize]="products.pageSize"
+                [pageIndex]="products.pageNumber - 1"
+                [showFirstLastButtons]="true"
+                [pageSizeOptions]="[5, 10, 20]"
+                aria-label="Select page">
+            </mat-paginator>
+
+            <div class="flex gap-3">
+                <button mat-stroked-button
+                    (click)="openFiltersDialog()">
+                    <mat-icon>filter_list</mat-icon>
+                    Filters
+                </button>
+                <button mat-stroked-button
+                    [matMenuTriggerFor]="sortMenu">
+                    <mat-icon>swap_vert</mat-icon>
+                    Sort
+                </button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-5 gap-4">
+            @for (product of products.items; track product.shoeId) {
+                <app-product-card [product]="product" />
+            }
+        </div>
+    </div>
+
+    <mat-menu #sortMenu="matMenu" class="bg-white">
+        <mat-selection-list [multiple]="false"
+            (selectionChange)="onSortChange($event)">
+            @for (sort of sortOptions; track $index) {
+                <mat-list-option
+                    [value]="sort.value"
+                    [selected]="sort.value.sortBy === query.sortBy && sort.value.sortDirection === query.sortDirection">
+                    {{ sort.label }}
+                </mat-list-option>
+            }
+        </mat-selection-list>
+    </mat-menu>
+}
+@else {
+    <app-empty-state 
+        message="No products match this filter"
+        icon="filter_alt_off"
+        actionText="Reset filters"
+        (action)="resetFilters()">
+    </app-empty-state>
+}

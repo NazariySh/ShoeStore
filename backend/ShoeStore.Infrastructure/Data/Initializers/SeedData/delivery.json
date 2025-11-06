@@ -1,0 +1,26 @@
+[
+  {
+    "DeliveryMethodId": "1c1c3db8-5f76-4bdf-8d3e-aaa23f91c701",
+    "Name": "Standard Shipping",
+    "Description": "Delivery within 5–7 business days.",
+    "Price": 5.99
+  },
+  {
+    "DeliveryMethodId": "25e12218-21c6-4aef-9bb9-4a25fc62e182",
+    "Name": "Express Shipping",
+    "Description": "Fast delivery within 2–3 business days.",
+    "Price": 11.99
+  },
+  {
+    "DeliveryMethodId": "38bd9c9d-574c-4c2f-89fc-88f2f5ec0de7",
+    "Name": "Next-Day Shipping",
+    "Description": "Delivery by the next business day.",
+    "Price": 19.99
+  },
+  {
+    "DeliveryMethodId": "e3b86e32-9fbd-4ed2-8751-8cf8a7ce48f9",
+    "Name": "In-Store Pickup",
+    "Description": "Pick up your order at a local store.",
+    "Price": 0.00
+  }
+]

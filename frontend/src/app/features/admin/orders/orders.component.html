@@ -1,0 +1,82 @@
+<div class="flex flex-wrap justify-between items-center mb-6 gap-4">
+    <mat-form-field appearance="outline" class="w-full sm:w-auto">
+      <mat-label>Filter</mat-label>
+      <input matInput
+        [(ngModel)]="query.searchTerm"
+        (keyup)="onSearchChange()"
+        placeholder="Search by customer, employee, or status"
+        #input>
+    </mat-form-field>
+</div>
+
+<div class="mat-elevation-z8 overflow-x-auto">
+    <table class="min-w-full table-auto border-collapse bg-white shadow-md">
+      <thead class="bg-gray-100 text-left text-sm font-semibold text-gray-700">
+        <tr>
+          <th scope="col" class="px-4 py-2 border-b">#</th>
+          <th scope="col" class="px-4 py-2 border-b">Customer</th>
+          <th scope="col" class="px-4 py-2 border-b">Employee</th>
+          <th scope="col" class="px-4 py-2 border-b">Status</th>
+          <th scope="col" class="px-4 py-2 border-b">Shipping Address</th>
+          <th scope="col" class="px-4 py-2 border-b">Delivery Method</th>
+          <th scope="col" class="px-4 py-2 border-b">Subtotal</th>
+          <th scope="col" class="px-4 py-2 border-b">Shipping</th>
+          <th scope="col" class="px-4 py-2 border-b">Action</th>
+        </tr>
+      </thead>
+
+      <tbody class="text-sm">
+        @for (order of orders.items; track order.createdAt) {
+          <tr class="border-b hover:bg-gray-50">
+            <th scope="row" class="px-4 py-2">{{ order.orderId }}</th>
+            <td class="px-4 py-2">{{ order?.customer?.email }}</td>
+            <td class="px-4 py-2">{{ order?.employee?.email }}</td>
+            <td class="px-4 py-2">{{ order.status }}</td>
+            <td class="px-4 py-2">{{ getAddressInfo(order) }}</td>
+            <td class="px-4 py-2">{{ order.deliveryMethod.name }}</td>
+            <td class="px-4 py-2">{{ order.subtotal | currency: 'USD' }}</td>
+            <td class="px-4 py-2">{{ order.shipping | currency: 'USD' }}</td>
+            <td class="px-4 py-2">
+              <button mat-icon-button [matMenuTriggerFor]="menu">
+                <mat-icon>more_vert</mat-icon>
+              </button>
+              <mat-menu #menu="matMenu">
+                <button mat-menu-item [routerLink]="['/orders', order.orderId]">
+                  <mat-icon>visibility</mat-icon>
+                  <span>View Details</span>
+                </button>
+                <button mat-menu-item
+                  (click)="approveOrder(order.orderId)"
+                  class="text-gray-700 hover:bg-gray-100">
+                  <mat-icon>done_all</mat-icon>
+                  <span>Approve</span>
+                </button>
+                <button mat-menu-item
+                  (click)="rejectOrder(order.orderId)"
+                  class="text-gray-700 hover:bg-gray-100">
+                  <mat-icon>block</mat-icon>
+                  <span>Reject</span>
+                </button>
+              </mat-menu>
+            </td>
+          </tr>
+        }
+        @empty {
+          <tr class="border-b hover:bg-gray-50">
+            <td colspan="9" class="text-center py-4 text-gray-500">
+              No orders found
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+
+    <mat-paginator
+      (page)="handlePageEvent($event)"
+      [length]="orders.totalCount"
+      [pageSize]="orders.pageSize"
+      [showFirstLastButtons]="true"
+      [pageIndex]="orders.pageNumber - 1"
+      aria-label="Select page">
+    </mat-paginator>
+</div>
