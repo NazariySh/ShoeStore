@@ -61,10 +61,14 @@ export class AuthService {
   logout(): Observable<void> {
     return this.http.post<void>(`${this.baseUrl}/logout`, null).pipe(
       tap(() => {
-        this.currentUser.set(null);
-        this.clearToken();
+        this.clearSession();
       })
     );
+  }
+
+  clearSession() {
+    this.currentUser.set(null);
+    this.clearToken();
   }
 
   private getAccessToken(): string | null {

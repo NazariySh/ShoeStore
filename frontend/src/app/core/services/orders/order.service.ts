@@ -40,7 +40,7 @@ export class OrderService {
     let params = new HttpParams()
       .set('status', status);
 
-    return this.http.patch<void>(`${this.baseUrl}/${id}`, { params });
+    return this.http.patch<void>(`${this.baseUrl}/${id}`, null, { params });
   }
 
   private getQueryParams(query: OrderQuery): HttpParams {
