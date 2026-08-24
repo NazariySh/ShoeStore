@@ -97,9 +97,9 @@ public class ShoeService : IShoeService
 
         _unitOfWork.Shoes.Remove(shoe);
 
-        await DeleteImagesAsync(publicIds);
-
         await _unitOfWork.SaveChangesAsync(cancellationToken);
+
+        await DeleteImagesAsync(publicIds);
     }
 
     public async Task<ShoeDto> GetByIdAsync(Guid id, CancellationToken cancellationToken = default)

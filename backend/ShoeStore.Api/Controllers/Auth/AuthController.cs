@@ -43,7 +43,7 @@ public class AuthController : ControllerBase
     [ProducesResponseType(typeof(TokenDto), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<IActionResult> RefreshToken(string accessToken, CancellationToken cancellationToken)
+    public async Task<IActionResult> RefreshToken([FromBody] string accessToken, CancellationToken cancellationToken)
     {
         var token = await _authService.RefreshTokenAsync(accessToken, cancellationToken);
 

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using ShoeStore.Application.DTOs;
 using ShoeStore.Application.DTOs.Shoes.Brands;
 using ShoeStore.Application.Interfaces.Services;
@@ -55,6 +56,11 @@ public class BrandService : IBrandService
     public async Task DeleteAsync(Guid id, CancellationToken cancellationToken = default)
     {
         var brand = await GetBrandAsync(id, cancellationToken);
+
+        if (await _unitOfWork.Shoes.AnyAsync(x => x.BrandId == id, cancellationToken))
+        {
+            throw new ApiException(StatusCodes.Status409Conflict, "Cannot delete brand: it is still assigned to one or more shoes.");
+        }
 
         _unitOfWork.Brands.Remove(brand);
 

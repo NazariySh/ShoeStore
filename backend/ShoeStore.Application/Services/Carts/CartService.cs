@@ -50,6 +50,11 @@ public class CartService : ICartService
 
     public async Task AddItemToCart(Guid id, CartItemDto item, int quantity, CancellationToken cancellationToken = default)
     {
+        if (quantity <= 0)
+        {
+            throw new ArgumentException("Quantity must be positive.");
+        }
+
         var cartItem = await _unitOfWork.CartItems.GetSingleAsync(
             x => x.ShoppingCartId == id && x.ProductId == item.ProductId,
             cancellationToken: cancellationToken);
@@ -75,6 +80,11 @@ public class CartService : ICartService
 
     public async Task RemoveItemFromCart(Guid id, Guid productId, int quantity, CancellationToken cancellationToken = default)
     {
+        if (quantity <= 0)
+        {
+            throw new ArgumentException("Quantity must be positive.");
+        }
+
         var cartItem = await _unitOfWork.CartItems.GetSingleAsync(
             x => x.ShoppingCartId == id && x.ProductId == productId,
             cancellationToken: cancellationToken)
@@ -129,19 +139,36 @@ public class CartService : ICartService
     {
         var cart = await _unitOfWork.ShoppingCarts.GetSingleAsync(
             x => x.ShoppingCartId == shoppingCart.ShoppingCartId,
+            include: x => x
+                .Include(c => c.CartItems),
             cancellationToken: cancellationToken)
             ?? throw new NotFoundException($"Shopping cart with id {shoppingCart.ShoppingCartId} not found.");
 
         cart.DeliveryMethodId = shoppingCart.DeliveryMethod?.DeliveryMethodId;
-        cart.CartItems.Clear();
 
-        foreach (var item in shoppingCart.Items)
+        var newItemsByProductId = shoppingCart.Items.ToDictionary(x => x.ProductId);
+
+        foreach (var existingItem in cart.CartItems.ToList())
         {
-            cart.CartItems.Add(new CartItem
+            if (newItemsByProductId.TryGetValue(existingItem.ProductId, out var newItem))
+            {
+                existingItem.Quantity = newItem.Quantity;
+                _unitOfWork.CartItems.Update(existingItem);
+                newItemsByProductId.Remove(existingItem.ProductId);
+            }
+            else
+            {
+                _unitOfWork.CartItems.Remove(existingItem);
+            }
+        }
+
+        foreach (var newItem in newItemsByProductId.Values)
+        {
+            _unitOfWork.CartItems.Add(new CartItem
             {
                 ShoppingCartId = cart.ShoppingCartId,
-                ProductId = item.ProductId,
-                Quantity = item.Quantity,
+                ProductId = newItem.ProductId,
+                Quantity = newItem.Quantity,
             });
         }
 

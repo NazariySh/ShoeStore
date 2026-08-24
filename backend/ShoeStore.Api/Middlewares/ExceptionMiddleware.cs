@@ -7,15 +7,19 @@ namespace ShoeStore.Api.Middlewares;
 
 public class ExceptionMiddleware : IMiddleware
 {
+    private const string GenericErrorMessage = "An unexpected error occurred. Please try again later.";
+
     private readonly ILogger<ExceptionMiddleware> _logger;
+    private readonly IHostEnvironment _environment;
     private readonly JsonSerializerOptions _options = new()
     {
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase
     };
 
-    public ExceptionMiddleware(ILogger<ExceptionMiddleware> logger)
+    public ExceptionMiddleware(ILogger<ExceptionMiddleware> logger, IHostEnvironment environment)
     {
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+        _environment = environment ?? throw new ArgumentNullException(nameof(environment));
     }
 
     public async Task InvokeAsync(HttpContext context, RequestDelegate next)
@@ -51,7 +55,11 @@ public class ExceptionMiddleware : IMiddleware
         }
         else
         {
-            var response = new ErrorResponseDto(exception.Message);
+            var message = statusCode == StatusCodes.Status500InternalServerError && !_environment.IsDevelopment()
+                ? GenericErrorMessage
+                : exception.Message;
+
+            var response = new ErrorResponseDto(message);
             result = JsonSerializer.Serialize(response, _options);
         }
 

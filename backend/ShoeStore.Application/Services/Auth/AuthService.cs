@@ -105,6 +105,8 @@ public class AuthService : IAuthService
             id,
             null,
             cancellationToken);
+
+        _httpContextAccessor.HttpContext?.Response.Cookies.Delete(RefreshTokenCookieKey);
     }
 
     private bool IsPasswordValid(User user, string password)
@@ -121,7 +123,23 @@ public class AuthService : IAuthService
             token.RefreshToken.Token,
             token.RefreshToken.ExpiryTime);
 
+        SetRefreshTokenCookie(token.RefreshToken);
+
         return token;
+    }
+
+    private void SetRefreshTokenCookie(RefreshTokenDto refreshToken)
+    {
+        _httpContextAccessor.HttpContext?.Response.Cookies.Append(
+            RefreshTokenCookieKey,
+            refreshToken.Token,
+            new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.None,
+                Expires = refreshToken.ExpiryTime,
+            });
     }
 
     private string? GetRefreshToken()
