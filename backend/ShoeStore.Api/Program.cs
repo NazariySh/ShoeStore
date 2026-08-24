@@ -46,10 +46,10 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
-await app.InitializeAsync();
-
 if (app.Environment.IsDevelopment())
 {
+    await app.InitializeAsync();
+
     app.UseSwagger();
     app.UseSwaggerUI();
 }

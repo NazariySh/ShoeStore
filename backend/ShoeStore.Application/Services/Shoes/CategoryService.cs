@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using ShoeStore.Application.DTOs;
 using ShoeStore.Application.DTOs.Shoes.Categories;
 using ShoeStore.Application.Interfaces.Services;
@@ -55,6 +56,11 @@ public class CategoryService : ICategoryService
     public async Task DeleteAsync(Guid id, CancellationToken cancellationToken = default)
     {
         var category = await GetCategoryAsync(id, cancellationToken);
+
+        if (await _unitOfWork.Shoes.AnyAsync(x => x.CategoryId == id, cancellationToken))
+        {
+            throw new ApiException(StatusCodes.Status409Conflict, "Cannot delete category: it is still assigned to one or more shoes.");
+        }
 
         _unitOfWork.Categories.Remove(category);
 

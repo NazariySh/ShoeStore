@@ -47,7 +47,7 @@ public class OrdersController : ControllerBase
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetById(Guid id, CancellationToken cancellationToken)
     {
-        var order = await _orderService.GetByIdAsync(id, cancellationToken);
+        var order = await _orderService.GetByIdAsync(id, User.GetId(), User.IsInRole(nameof(RoleType.Admin)), cancellationToken);
 
         return Ok(order);
     }

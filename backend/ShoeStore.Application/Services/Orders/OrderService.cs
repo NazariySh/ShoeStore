@@ -49,7 +49,7 @@ public class OrderService : IOrderService
         return _unitOfWork.Orders.UpdateStatusAsync(id, status, cancellationToken);
     }
 
-    public async Task<OrderDto> GetByIdAsync(Guid id, CancellationToken cancellationToken = default)
+    public async Task<OrderDto> GetByIdAsync(Guid id, Guid userId, bool isAdmin, CancellationToken cancellationToken = default)
     {
         var order = await _unitOfWork.Orders.GetSingleAsync(
             x => x.OrderId == id,
@@ -62,6 +62,11 @@ public class OrderService : IOrderService
                         .ThenInclude(ois => ois.ShoeImages),
             cancellationToken: cancellationToken)
             ?? throw new NotFoundException($"Order with id {id} not found");
+
+        if (!isAdmin && order.CustomerId != userId)
+        {
+            throw new ForbiddenException("You do not have access to this order.");
+        }
 
         return _mapper.Map<OrderDto>(order);
     }
